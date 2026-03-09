@@ -2,7 +2,7 @@
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import NavbarLayoutFloatingInline from "@/components/navbar/NavbarLayoutFloatingInline";
-import HeroSplitTestimonial from "@/components/sections/hero/HeroSplitTestimonial";
+import HeroBillboard from "@/components/sections/hero/HeroBillboard";
 import FeatureCardTwentyOne from "@/components/sections/feature/FeatureCardTwentyOne";
 import TextSplitAbout from "@/components/sections/about/TextSplitAbout";
 import MetricCardSeven from "@/components/sections/metrics/MetricCardSeven";
@@ -43,7 +43,7 @@ export default function LandingPage() {
       </div>
 
       <div id="hero" data-section="hero">
-        <HeroSplitTestimonial
+        <HeroBillboard
           title="Pittura civile e industriale che dura"
           description="Tinteggiature, risanamento murario e trattamenti ignifughi certificati per abitazioni, condomini ed edifici industriali in tutta la provincia di Mantova."
           tag="● DAL 1990 — MAESTRI COI COLORI"
@@ -51,27 +51,10 @@ export default function LandingPage() {
           buttons={[
             { text: "Richiedi Preventivo", href: "#contact" },
             { text: "WhatsApp", href: "https://wa.me/39" },
-            { text: "Chiama Ora", href: "tel:+39" },
-          ]}
-          testimonials={[
-            {
-              name: "Marco Rossi",              handle: "Proprietario Residenziale",              testimonial: "Professionalità, puntualità e qualità superiore. Il lavoro è stato completato nei tempi previsti con grande attenzione ai dettagli.",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/weathered-stained-concrete-wall-corner_632498-60769.jpg?_wi=1"},
-            {
-              name: "Lucia Bianchi",              handle: "Amministratore Condominio",              testimonial: "Da più di 15 anni affidiamo i nostri lavori a Europitture. Sempre impeccabili, con mezzi propri e senza sorprese.",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/real-estate-agents-checking-construction-works_23-2147650206.jpg?_wi=1"},
-            {
-              name: "Giorgio Fermi",              handle: "Direttore Facility Industriale",              testimonial: "Per i trattamenti ignifughi abbiamo scelto Europitture per la certificazione impeccabile e la consulenza tecnica.",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/empty-parking-lot-wall-urban-industrial-background_1127-2307.jpg"},
-            {
-              name: "Elena Moretti",              handle: "Progettista Esterno",              testimonial: "Partner affidabile per i nostri progetti. Rispetto dei tempi e delle specifiche tecniche, sempre.",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/full-shot-man-spraying-powder-paint_23-2149878781.jpg"},
           ]}
           imageSrc="http://img.b2bpic.net/free-photo/weathered-stained-concrete-wall-corner_632498-60769.jpg?_wi=2"
           imageAlt="professional house painting interior bright colors"
-          imagePosition="right"
           mediaAnimation="blur-reveal"
-          useInvertedBackground={false}
         />
       </div>
 
@@ -103,6 +86,8 @@ export default function LandingPage() {
           mediaPosition="right"
           mediaAnimation="slide-up"
           useInvertedBackground={false}
+          animationType="slide-up"
+          textboxLayout="default"
         />
       </div>
 
