@@ -86,8 +86,6 @@ export default function LandingPage() {
           mediaPosition="right"
           mediaAnimation="slide-up"
           useInvertedBackground={false}
-          animationType="slide-up"
-          textboxLayout="default"
         />
       </div>
 
