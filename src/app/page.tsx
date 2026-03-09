@@ -56,10 +56,10 @@ export default function LandingPage() {
           testimonials={[
             {
               name: "Marco Rossi",              handle: "Proprietario Residenziale",              testimonial: "Professionalità, puntualità e qualità superiore. Il lavoro è stato completato nei tempi previsti con grande attenzione ai dettagli.",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/weathered-stained-concrete-wall-corner_632498-60769.jpg"},
+              imageSrc: "http://img.b2bpic.net/free-photo/weathered-stained-concrete-wall-corner_632498-60769.jpg?_wi=1"},
             {
               name: "Lucia Bianchi",              handle: "Amministratore Condominio",              testimonial: "Da più di 15 anni affidiamo i nostri lavori a Europitture. Sempre impeccabili, con mezzi propri e senza sorprese.",              rating: 5,
-              imageSrc: "http://img.b2bpic.net/free-photo/real-estate-agents-checking-construction-works_23-2147650206.jpg"},
+              imageSrc: "http://img.b2bpic.net/free-photo/real-estate-agents-checking-construction-works_23-2147650206.jpg?_wi=1"},
             {
               name: "Giorgio Fermi",              handle: "Direttore Facility Industriale",              testimonial: "Per i trattamenti ignifughi abbiamo scelto Europitture per la certificazione impeccabile e la consulenza tecnica.",              rating: 5,
               imageSrc: "http://img.b2bpic.net/free-photo/empty-parking-lot-wall-urban-industrial-background_1127-2307.jpg"},
@@ -67,7 +67,7 @@ export default function LandingPage() {
               name: "Elena Moretti",              handle: "Progettista Esterno",              testimonial: "Partner affidabile per i nostri progetti. Rispetto dei tempi e delle specifiche tecniche, sempre.",              rating: 5,
               imageSrc: "http://img.b2bpic.net/free-photo/full-shot-man-spraying-powder-paint_23-2149878781.jpg"},
           ]}
-          imageSrc="http://img.b2bpic.net/free-photo/weathered-stained-concrete-wall-corner_632498-60769.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/weathered-stained-concrete-wall-corner_632498-60769.jpg?_wi=2"
           imageAlt="professional house painting interior bright colors"
           imagePosition="right"
           mediaAnimation="blur-reveal"
@@ -98,7 +98,7 @@ export default function LandingPage() {
             {
               id: "6",              title: "Trattamenti Ignifughi",              content: "Protezione al fuoco certificata per strutture in acciaio e legno. Documentazione tecnica conforme alle normative."},
           ]}
-          imageSrc="http://img.b2bpic.net/free-photo/real-estate-agents-checking-construction-works_23-2147650206.jpg"
+          imageSrc="http://img.b2bpic.net/free-photo/real-estate-agents-checking-construction-works_23-2147650206.jpg?_wi=2"
           imageAlt="exterior house facade painting maintenance renovation"
           mediaPosition="right"
           mediaAnimation="slide-up"
