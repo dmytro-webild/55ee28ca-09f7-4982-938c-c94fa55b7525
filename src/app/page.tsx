@@ -52,6 +52,12 @@ export default function LandingPage() {
             { text: "Richiedi Preventivo", href: "#contact" },
             { text: "WhatsApp", href: "https://wa.me/39" },
           ]}
+          avatars={[
+            { src: "http://img.b2bpic.net/free-photo/medium-shot-people-with-protection-equipment-gloves_23-2148269364.jpg", alt: "Client 1" },
+            { src: "http://img.b2bpic.net/free-photo/medium-shot-people-with-protection-equipment-gloves_23-2148269364.jpg", alt: "Client 2" },
+            { src: "http://img.b2bpic.net/free-photo/medium-shot-people-with-protection-equipment-gloves_23-2148269364.jpg", alt: "Client 3" },
+          ]}
+          avatarText="Trusted by 500+ clients"
           imageSrc="http://img.b2bpic.net/free-photo/weathered-stained-concrete-wall-corner_632498-60769.jpg?_wi=2"
           imageAlt="professional house painting interior bright colors"
           mediaAnimation="blur-reveal"
